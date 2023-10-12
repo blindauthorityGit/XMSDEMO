@@ -145,7 +145,7 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>Monikahaus Spendenaktion</title>
+                <title>XMS Donate DEMO</title>
                 <meta
                     name="description"
                     content="Wir sammeln Spenden für die Kinder und Jugendlichen des Familienzentrums Monikahaus."
@@ -167,7 +167,7 @@ export default function Home() {
                 <meta property="og:site_name" content="Monikahaus - Spendenaktion" />
                 <meta property="og:locale" content="de_DE" />
             </Head>
-            {onBoarding && (
+            {/* {onBoarding && (
                 <OnBoardModal
                     isOpen={onBoarding}
                     onClose={() => {
@@ -185,7 +185,7 @@ export default function Home() {
                         }}
                     />
                 </OnBoardModal>
-            )}
+            )} */}
             {showSuccess ? (
                 <RoundModal
                     isOpen={showSuccess}
