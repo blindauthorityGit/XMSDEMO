@@ -46,7 +46,7 @@ const Goal = (props) => {
 
     return (
         <>
-            <div className={`${props.klasse}`}>
+            <div className={`${props.klasse} lg:text-white`}>
                 <div className="headline font-bold text-base xl:text-xl mb-2 sm:mb-4">Erreichtes Ziel</div>
                 <div
                     className={` ${
@@ -56,10 +56,10 @@ const Goal = (props) => {
                     {goal.toLocaleString("de")} Euro
                 </div>
 
-                <div className="balken border  border-dashed h-3 rounded-3xl border-darkText sm:h-4 w-full relative">
+                <div className="balken border  border-dashed h-3 rounded-3xl border-darkText lg:border-white sm:h-4 w-full relative">
                     <motion.div
                         className={`inner rounded-l-3xl ${
-                            goalsReached >= 1 ? "bg-[#00A651]" : "bg-darkText"
+                            goalsReached >= 1 ? "bg-[#06D6A0]" : "bg-darkText"
                         }  h-full relative`}
                         id="innerProgress"
                         layout

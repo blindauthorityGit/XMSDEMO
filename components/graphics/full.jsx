@@ -53,11 +53,11 @@ const Full = (props) => {
                 </div>
                 <Baum />
             </div>
-            <SnowmanGraphic />
+            {/* <SnowmanGraphic />
             <BoyBrownGraphic />
             <BoyWhiteGraphic />
             <GirlYellowGraphic />
-            <GirlBlackGraphic />
+            <GirlBlackGraphic /> */}
             <BGDesktop />
         </div>
     );

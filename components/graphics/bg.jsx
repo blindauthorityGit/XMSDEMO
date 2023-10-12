@@ -4,8 +4,8 @@ import Image from "next/image";
 import { CoverImage } from "../images";
 
 //ASSETS
-import BG from "../../assets/bg.svg";
-import BGMobile from "../../assets/bgMobile.svg";
+import BG from "../../assets/bg1.svg";
+import BGMobile from "../../assets/bgMobile1.svg";
 
 const BGDesktop = () => {
     return (

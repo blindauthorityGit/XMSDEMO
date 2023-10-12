@@ -84,19 +84,19 @@ const Success = ({ onNext }) => {
                         </form>
                     </div> */}
                     <div className="mb-6 xl:mb-8"></div>
-                    <P klasse="font-semibold text-center">Das Team des Familienzentrums Monikahaus</P>
+                    <P klasse="font-semibold text-center">Mit Ihrer Spende machen Sie einen Unterschied!</P>
                     <P klasse="font-semibold text-center">
-                        <a href="https://www.skf-frankfurt.de/">www.monikahaus.de</a>{" "}
+                        <a href="https://www.skf-frankfurt.de/">www.xmsdonate.de</a>{" "}
                     </P>{" "}
                     <div className="mb-6 xl:mb-66"></div>
-                    <P klasse="text-center mb-6">
+                    {/* <P klasse="text-center mb-6">
                         <strong>Bitte beachten:</strong> <br></br> Der Sozialdienst katholischer Frauen e. V.,
                         Ortsverein Frankfurt, ist als gemeinnützig vom Finanzamt Frankfurt am Main anerkannt. Ihre
                         Spende ist steuerlich abzugsfähig. Für den Spendennachweis genügt der Zahlungsbeleg, wenn die
                         Zuwendung den Betrag von 300 Euro nicht übersteigt. Wenn Sie eine Spendenquittung benötigen,
                         schreiben Sie uns bitte an{" "}
                         <a href="mailto:spenden@skf-frankfurt.de">spenden@skf-frankfurt.de</a>.
-                    </P>
+                    </P> */}
                     {/* <img src={Logo.src} alt="" />
                     <div className="mb-4 xl:mb-66"></div> */}
                 </div>

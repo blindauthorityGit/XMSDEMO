@@ -4,12 +4,12 @@ import { getStorage, ref, uploadBytes, listAll, getDownloadURL } from "firebase/
 
 const firebaseConfig = {
     apiKey: process.env.NEXT_FIREBASE,
-    authDomain: "monikahaus-3a374.firebaseapp.com",
-    projectId: "monikahaus-3a374",
-    storageBucket: "monikahaus-3a374.appspot.com",
-    messagingSenderId: "553695420137",
-    appId: "1:553695420137:web:94759c80897f5900a51a78",
-    measurementId: "G-5N4J2XYP2Y",
+    authDomain: "xms-demo-a0470.firebaseapp.com",
+    projectId: "xms-demo-a0470",
+    storageBucket: "xms-demo-a0470.appspot.com",
+    messagingSenderId: "393129373475",
+    appId: "1:393129373475:web:c475a3c61850c2570e2696",
+    measurementId: "G-6DKJL190MK",
 };
 
 // Initialize Firebase

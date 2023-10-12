@@ -65,6 +65,9 @@ export default function Home() {
     const showSuccess = useStore((state) => state.showSuccess);
     const setShowSuccess = useStore((state) => state.setShowSuccess);
 
+    //FINALSTEP
+    const setFinalStep = useStore((state) => state.setFinalStep);
+
     //MODAL COMPONENT
     const onBoarding = useStore((state) => state.onBoarding); // Get the onBoarding state
     const setOnBoardingAndCookie = useStore((state) => state.setOnBoardingAndCookie);
@@ -100,6 +103,7 @@ export default function Home() {
         const { over } = event;
         setParent(over ? over.id : null);
         console.log(over.id);
+        setFinalStep(true);
         setActiveId(null);
         setIsDropped(over ? true : false);
         setIsDragging(false);
@@ -119,7 +123,6 @@ export default function Home() {
 
     useEffect(() => {
         //HOTJAR INIT
-        Hotjar.init(3630058, 6);
 
         onBoarding ? setShowOverlay(true) : null;
         JSON.parse(process.env.NEXT_PUBLIC_DEV)
@@ -195,7 +198,7 @@ export default function Home() {
                 </RoundModal>
             ) : null}
             <MainContainer width="w-full h-full min-h-[100svh] relative">
-                <img className="absolute top-8 left-4 z-10" src={Favicon.src} alt="" />
+                {/* <img className="absolute top-8 left-4 z-10" src={Favicon.src} alt="" /> */}
                 <Snow />
                 {/* // FLOAT BUTTONS */}
 

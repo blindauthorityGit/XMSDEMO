@@ -4,7 +4,7 @@ import React, { useRef, useEffect, forwardRef } from "react";
 import { CoverImage } from "../images";
 
 //ASSETS
-import Baum from "../../assets/baum2.svg";
+import Baum from "../../assets/baum3.svg";
 
 //HOOKS
 import useElementDimensions from "../../hooks/useDimensions";

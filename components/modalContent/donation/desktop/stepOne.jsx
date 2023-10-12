@@ -14,6 +14,7 @@ import useStore from "../../../../store/store";
 //FUNCTIONS
 import isStepDataValid from "../../../../functions/isStepDataValid";
 import { handleContinue } from "../../../../functions/handleContinue";
+import uploadToDatabase from "../../../../functions/uploadToDatabase";
 
 //DATABASE
 import saveUserDataToFirestore from "../../../../functions/saveDataToFirestore"; // Import the saveUserDataToFirestore function
@@ -57,6 +58,9 @@ const StepOne = (props) => {
     };
 
     const [isDisabled, setIsDisabled] = useState(true);
+
+    // SHOW BUTTONS OR NOT
+    const finalStep = useStore((state) => state.finalStep);
 
     const handleContinueClick = (e) => {
         handleContinue(
@@ -166,11 +170,16 @@ const StepOne = (props) => {
                 <DragBall
                     key="dragor"
                     onNext={() => {
-                        handleNext();
-                        setModalHeight("100%");
-                        console.log(buttonPosition);
-
-                        setButtonPosition(true);
+                        console.log("NÄCHSTER CLICK");
+                        uploadToDatabase(
+                            userData,
+                            setUserList,
+                            setShowOverlay,
+                            setShowSuccess,
+                            setShowUnclaimed,
+                            closeModal,
+                            userList
+                        );
                     }}
                     isDropped={props.isDropped}
                     isDragging={props.isDragging}
@@ -216,7 +225,17 @@ const StepOne = (props) => {
                             <MainButton
                                 disabled={isDisabled}
                                 onClick={(e) => {
-                                    handleContinueClick(e);
+                                    finalStep
+                                        ? uploadToDatabase(
+                                              userData,
+                                              setUserList,
+                                              setShowOverlay,
+                                              setShowSuccess,
+                                              setShowUnclaimed,
+                                              closeModal,
+                                              userList
+                                          )
+                                        : handleContinueClick(e);
                                 }}
                                 klasse="border-2 text-darkText"
                             >

@@ -40,7 +40,7 @@ const anzahlRows = 14;
 const anzahlBaumKugeln = 75;
 
 //BAUMSTUMPF HÖHE % (Baumstumpf / gesamthöhe)
-const baumstumpfHeight = 0.1512;
+const baumstumpfHeight = 0.147;
 
 const showGoal = false;
 const goalSum = 10000;

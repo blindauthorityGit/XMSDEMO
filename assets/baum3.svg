@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="377" height="523" viewBox="0 0 377 523">
+  <g id="baum3" transform="translate(4993 -10253)">
+    <ellipse id="Ellipse_481" data-name="Ellipse 481" cx="162" cy="9" rx="162" ry="9" transform="translate(-4962 10758)" fill="#1d1b2a" opacity="0.55"/>
+    <g id="baum3-2" data-name="baum3">
+      <path id="Polygon_8" data-name="Polygon 8" d="M188.5,0,377,254H0Z" transform="translate(-4993 10441)" fill="#06d6a0"/>
+      <path id="Polygon_9" data-name="Polygon 9" d="M157.5,0,315,232H0Z" transform="translate(-4962 10370)" fill="#d4f2db"/>
+      <path id="Polygon_10" data-name="Polygon 10" d="M130.5,0,261,188H0Z" transform="translate(-4935 10321)" fill="#06d6a0"/>
+      <path id="Polygon_11" data-name="Polygon 11" d="M117.5,0,235,188H0Z" transform="translate(-4922 10253)" fill="#d4f2db"/>
+      <path id="Pfad_6861" data-name="Pfad 6861" d="M-2041.147,11416.488l178.89,8.76-9.958-15.649h-165.672Z" transform="translate(-2849.645 -968.54)" fill="#1d1b2a" opacity="0.3"/>
+      <path id="Pfad_6862" data-name="Pfad 6862" d="M-2041.147,11416.488l204.384,8.76-11.377-15.649h-189.282Z" transform="translate(-2861.791 -900.538)" fill="#1d1b2a" opacity="0.3"/>
+      <path id="Pfad_6863" data-name="Pfad 6863" d="M-2041.147,11416.488l257.781,8.76-14.349-15.649h-238.733Z" transform="translate(-2888.074 -807.586)" fill="#1d1b2a" opacity="0.3"/>
+      <path id="Rechteck_692" data-name="Rechteck 692" d="M0,0H46a0,0,0,0,1,0,0V43A20,20,0,0,1,26,63H20A20,20,0,0,1,0,43V0A0,0,0,0,1,0,0Z" transform="translate(-4823 10704)" fill="#c3c0ae"/>
+    </g>
+  </g>
+</svg>

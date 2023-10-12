@@ -73,6 +73,10 @@ const useStore = create((set) => ({
     // GET TO LAST TREE
     isInputFocused: false,
     setIsInputFocused: (value) => set({ isInputFocused: value }),
+
+    // FINALK STEP
+    finalStep: false,
+    setFinalStep: (value) => set({ finalStep: value }),
 }));
 
 // Initialize onBoarding state from the cookie

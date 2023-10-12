@@ -26,23 +26,23 @@ module.exports = {
         extend: {
             fontFamily: {
                 ...fontFamily,
-                sans: ["Helvetica", "Arial", "sans-serif"],
+                sans: ["Josefin Sans", "Arial", "sans-serif"],
                 success: ["Lobster", "cursive"],
             },
             colors: {
                 primaryColor: {
-                    DEFAULT: "#870f3b",
-                    50: "#fff1f3",
-                    100: "#ffe3e7",
-                    200: "#ffccd5",
-                    300: "#ffa1b3",
-                    400: "#ff6d8b",
-                    500: "#f93a65",
-                    600: "#e71751",
-                    700: "#c30d44",
-                    800: "#a30e40",
-                    900: "#870f3b",
-                    950: "#4e031c",
+                    DEFAULT: "#fe8d3c",
+                    50: "#fff6ed",
+                    100: "#ffecd4",
+                    200: "#ffd4a9",
+                    300: "#ffb572",
+                    400: "#fe8d3c",
+                    500: "#fd6a12",
+                    600: "#ed5009",
+                    700: "#c53a09",
+                    800: "#9c2e10",
+                    900: "#7e2810",
+                    950: "#441106",
                 },
 
                 secondaryColor: {
