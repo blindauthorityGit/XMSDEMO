@@ -148,23 +148,20 @@ export default function Home() {
                 <title>XMS Donate DEMO</title>
                 <meta
                     name="description"
-                    content="Wir sammeln Spenden für die Kinder und Jugendlichen des Familienzentrums Monikahaus."
+                    content="Lassen Sie Ihre Spende auf unserem virtuellen Spendenbaum erstrahlen."
                 />
-                <meta
-                    name="keywords"
-                    content="Monikahaus, Frankfurt, Spenden, Spendenaktion, Kinder, Kinderhilfe, Weihnachten, Gutes tun"
-                />
+                <meta name="keywords" content="Lassen Sie Ihre Spende auf unserem virtuellen Spendenbaum erstrahlen" />
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 <link rel="icon" href={Favicon.src} />
-                <meta property="og:title" content="Monikahaus Spendenaktion" />
+                <meta property="og:title" content="XMS Donate DEMO" />
                 <meta property="og:type" content="website" />
-                <meta property="og:url" content="https://monikahaus.xmsdonate.de" />
+                <meta property="og:url" content="https://www.xmsdonate.de" />
                 <meta property="og:image" content={OGImage.src} />
                 <meta
                     property="og:description"
-                    content="Wir sammeln Spenden für die Kinder und Jugendlichen des Familienzentrums Monikahaus."
+                    content="Lassen Sie Ihre Spende auf unserem virtuellen Spendenbaum erstrahlen."
                 />
-                <meta property="og:site_name" content="Monikahaus - Spendenaktion" />
+                <meta property="og:site_name" content="XMS Donate DEMO" />
                 <meta property="og:locale" content="de_DE" />
             </Head>
             {/* {onBoarding && (
