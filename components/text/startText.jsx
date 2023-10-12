@@ -32,7 +32,9 @@ const StartText = () => {
 
     return (
         <div className="absolute lg:static bottom-8 lg:bottom-auto w-full lg:mt-8 3xl:mt-16">
-            <H1 klasse=" lg:block mb-20 lg:mb-4 lg:text-white">Schmücken Sie den Baum</H1>
+            <h1 className="text-2xl lg:text-4xl xl:text-5xl font-black  font-sans text-darkText lg:block mb-20 lg:mb-4 lg:text-white">
+                Schmücken Sie den Baum
+            </h1>
             <P klasse="text-xl font-semibold tracking-wide hidden lg:block lg:text-white">
                 Wir sammeln Spenden für ein wundervolles<br></br> Weihnachtsfest für unsere Charity.
             </P>
