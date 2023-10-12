@@ -58,7 +58,7 @@ function MyApp({ Component, pageProps }) {
         <>
             {/* ...other components */}
             {showOverlay && <Overlay onClick={handleOverlayClick} />} {/* Render the overlay if showOverlay is true */}
-            <CookieConsentComponent />
+            {/* <CookieConsentComponent /> */}
             <Component {...pageProps} setShowOverlay={setShowOverlay} /> {/* Pass setShowOverlay to child components */}
         </>
     );
