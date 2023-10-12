@@ -10,7 +10,7 @@ const avatars = [Bob, Jessy, Mika, Jerome];
 const colors = {
     background: "#fff",
     primaryColor: "#7d866f",
-    bgColors: ["#870F3B", "#335381", "#F26522", "#EC008C", "#FFF200"],
+    bgColors: ["#5BC0EB", "#C589E8", "#FE8D3C", "#EC008C", "#8AC926"],
     kugeln: [
         {
             kugel1: "#EB4511",

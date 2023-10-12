@@ -15,13 +15,10 @@ const Info = () => {
                 <P>Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:</P>
                 <br />
                 <P>
-                    <span id="s3-t-firma">Sozialdienst katholischer Frauen e. V.</span>
+                    <span className="font-bold">Sabocon GmbH</span>
                     <br />
-                    {/* <span id="s3-t-ansprechpartner">Marc Werner</span>
-                    <br /> */}
-                    <span id="s3-t-strasse">Kriegkstraße 32–36</span>
-                    <br />
-                    <span id="s3-t-plz">60326</span> <span id="s3-t-ort">Frankfurt am Main</span>
+                    Alte Bogengasse 23<br></br>
+                    63303 Dreieich{" "}
                 </P>
                 <P>
                     Die verantwortliche Stelle entscheidet allein oder gemeinsam mit anderen über die Zwecke und Mittel
