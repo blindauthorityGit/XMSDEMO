@@ -348,7 +348,7 @@ const Info = () => {
                 </P>
                 <div className="mb-6 xl:mb-8"></div>
 
-                <img src={Logo.src} className="mt-6" alt="" />
+                {/* <img src={Logo.src} className="mt-6" alt="" /> */}
             </div>
         </div>
     );
